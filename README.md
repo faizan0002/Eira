@@ -100,7 +100,7 @@ Licensed under the Apache License 2.0. See the [LICENSE](LICENSE) file for detai
 
 ## Credits
 - **Developer**: Faizan Mukhtar
-- **Contact**: faizan Mukhtar001@icloud.com
+- **Contact**: faizanmukhtar001@icloud.com
 
 ## Support
 - Star your GitHub repository to show support!
