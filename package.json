@@ -1,0 +1,21 @@
+{
+  "name": "eira",
+  "version": "1.0.0",
+  "description": "A simple WhatsApp bot created by Faizan Mukhtar",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "pm2 start index.js --deep-monitoring --attach --name Eira",
+    "stop": "pm2 stop Eira",
+    "restart": "pm2 restart Eira"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "latest",
+    "axios": "^1.7.9",
+    "dotenv": "^16.0.0",
+    "pm2": "latest",
+    "qrcode-terminal": "^0.12.0"
+  },
+  "author": "Faizan Mukhtar",
+  "license": "Apache-2.0"
+}

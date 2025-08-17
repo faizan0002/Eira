@@ -1,0 +1,41 @@
+{
+  "name": "Eira",
+  "description": "A simple WhatsApp bot created by Faizan Mukhtar",
+  "logo": "https://litter.catbox.moe/esoefkh31einqyxl.JPG",
+  "keywords": ["Eira", "WhatsApp", "bot"],
+  "success_url": "/",
+  "stack": "container",
+  "env": {
+    "SESSION_ID": {
+      "description": "Your WhatsApp SESSION_ID (obtained via QR code or pairing code)",
+      "value": "",
+      "required": true
+    },
+    "OWNER_NUMBER": {
+      "description": "Owner's phone number (e.g., 923296269525)",
+      "value": "923296269525",
+      "required": true
+    },
+    "OWNER_NAME": {
+      "description": "Owner's name",
+      "value": "Faizan Mukhtar",
+      "required": true
+    },
+    "PREFIX": {
+      "description": "Command prefix (e.g., ., !, @)",
+      "value": ".",
+      "required": true
+    },
+    "TIMEZONE": {
+      "description": "Timezone (e.g., Asia/Karachi)",
+      "value": "Asia/Karachi",
+      "required": true
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+    }
+  ],
+  "stack": "heroku-24"
+}
